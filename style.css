@@ -16,12 +16,22 @@
     font-style: normal;
 } */
 
-body {
-    width: auto;
-    background: rgb(69, 0, 87);
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
 }
 
-header {
+body {
+    width: auto;
+    /*height: 100vh;
+    display: flex;
+    flex-direction: column; */
+}
+
+/*PAGINA 1 - INICIO*/
+
+nav {
     width: 100%;
     height: 5rem;
     position: fixed;
@@ -29,17 +39,30 @@ header {
     left: 0;
     right: 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0 10%;
     align-items: center;
     background: rgb(217, 217, 217, 10%);
+    backdrop-filter: brightness(0.5);
+    z-index: 1;
+    text-decoration: none;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
-header a {
+nav a {
     color: rgb(228, 225, 218);
     font-family: "Passion One", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 18px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(228, 225, 218);
 }
 
 ul {
@@ -48,20 +71,21 @@ ul {
 
 ul a {
     color: rgb(228, 225, 218);
+    margin-left: 1rem;
 }
 
-.inicio {
+#inicio {
     height: 100vh;
+    background: rgb(69, 0, 87);
 }
 
-.container {
+.inicial {
     width: 100%;
-    height: 400px;
     align-content: center;
     text-align: center;
     position: relative;
     color: rgb(228, 225, 218);
-    top: 100px;
+    top: 90px;
     font-family: "Passion One", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -74,6 +98,7 @@ ul a {
 }
 
 .saiba_mais {
+    margin: 30px;
     width: 205px;
     height: 50px;
     background: #FB6C14;
@@ -83,4 +108,152 @@ ul a {
     font-weight: 400;
     font-style: normal;
     font-size: 20px;
+}
+
+/*PAGINA 2 - QUEM SOMOS?*/
+#aboutUS {
+    height: 90vh;
+}
+
+.quemSomos {
+    z-index: 1;
+    display: block;
+    color: #FB6C14;
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.quemsomos {
+    align-content: center;
+    text-align: center;
+    font-size: 55px;
+}
+
+.ellipse {
+    z-index: -1;
+    top: -88px;
+    position: relative;
+    /*height: 938px; */
+    width: 206vh;
+    height: 90vh;
+}
+
+.fish {
+    top: -717px;
+    position: relative;
+    width: 85vh;
+    height: 80vh;
+    left: 80px;
+}
+
+.texto {
+    top: -1245px;
+    width: 35%;
+    position: relative;
+    height: 50%;
+    align-items: end;
+    display: flex;
+    text-align: center;
+    align-content: flex-end;
+    left: 896px;
+    font-size: 20px;
+}
+
+/*PAGINA 3 - POR QUE VOCÊ DEVE CUMPRIR SUAS HORAS? */
+
+#cumprir {
+    height: 90vh;
+}
+
+.time {
+    width: 36%;
+    height: 50%;
+    left: 900px;
+    position: relative;
+    top: -220px;
+}
+
+.texto2 {
+    width: 40%;
+    height: 50%;
+    position: relative;
+    top: -652px;
+    left: 56px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.title {
+    color: #FB6C14;
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    width: 38%;
+    font-style: normal;
+    font-size: 55px;
+    text-align: center;
+    left: 75px;
+    position: relative;
+    top: 45px;
+}
+
+/*PAGINA 4 - COMO VALIDAR SUAS HORAS NO ULIFE?*/
+#validar {
+    height: 90vh;
+}
+
+.binoculo {
+    width: 40%;
+    height: 80%;
+    position: relative;
+    left: 45px;
+    top: -85px;
+}
+
+.texto3 {
+    width: 40%;
+    height: 50%;
+    position: relative;
+    top: -495px;
+    left: 790px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.title3 {
+    color: #FB6C14;
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    width: 38%;
+    font-style: normal;
+    font-size: 55px;
+    text-align: center;
+    left: 778px;
+    position: relative;
+    top: 40px;
+}
+
+/*PAGINA 5 - UNI  */
+
+#unitalk {
+    height: 100vh;
+    background: #FB6C14;
+}
+
+.unitalk {
+    width: 90%;
+    height: 90%;
+}
+
+.chat{
+    width: 100%;
+    align-content: center;
+    text-align: center;
+    position: relative;
+    color: rgb(228, 225, 218);
+    top: 90px;
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
 }
