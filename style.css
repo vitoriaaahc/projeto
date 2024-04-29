@@ -24,9 +24,6 @@
 
 body {
     width: auto;
-    /*height: 100vh;
-    display: flex;
-    flex-direction: column; */
 }
 
 /*PAGINA 1 - INICIO*/
@@ -101,6 +98,7 @@ ul a {
     margin: 30px;
     width: 205px;
     height: 50px;
+    border-color: #FB6C14;
     background: #FB6C14;
     border-radius: 8px;
     color: rgb(228, 225, 218);
@@ -135,15 +133,15 @@ ul a {
     top: -88px;
     position: relative;
     /*height: 938px; */
-    width: 206vh;
+    width: 100%;
     height: 90vh;
 }
 
 .fish {
     top: -717px;
     position: relative;
-    width: 85vh;
-    height: 80vh;
+    width: 40%;
+    height: 40%;
     left: 80px;
 }
 
@@ -245,7 +243,7 @@ ul a {
     height: 90%;
 }
 
-.chat{
+.chat {
     width: 100%;
     align-content: center;
     text-align: center;
@@ -256,4 +254,258 @@ ul a {
     font-weight: 400;
     font-style: normal;
     font-size: 30px;
+    text-decoration: none;
+}
+
+.dicas{
+    text-decoration: none;
+    color: rgb(228, 225, 218);
+}
+
+
+@media screen and (min-width: 200px) and (max-width: 640px) {
+
+    * {
+        margin: 0;
+        box-sizing: border-box;
+        padding: 0;
+    }
+    
+    body {
+        width: auto;
+        height: 100%;
+    }
+    
+    /*NAV BAR  */
+
+    nav {
+        width: 100%;
+        height: 5rem;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        padding: 0 5%;
+        align-items: center;
+        background: rgb(217, 217, 217, 10%);
+        backdrop-filter: brightness(0.5);
+        z-index: 1;
+        text-decoration: none;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+
+    nav a {
+        color: rgb(228, 225, 218);
+        justify-content: space-around;
+        font-family: "Passion One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 9px;
+        text-decoration: none;
+    }
+
+    nav a:hover {
+        color: rgb(228, 225, 218);
+    }
+
+    ul {
+        display: contents;
+    }
+
+    ul a {
+        color: rgb(228, 225, 218);
+        margin-left: 1rem;
+    }
+
+    /*PAGINA 1 - INICIO*/
+
+    #inicio {
+        height: 100vh;
+        background: rgb(69, 0, 87);
+    }
+
+    .inicial {
+        width: 100%;
+        align-content: center;
+        text-align: center;
+        position: relative;
+        color: rgb(228, 225, 218);
+        top: 90px;
+        font-family: "Passion One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 12px;
+    }
+
+    .uni {
+        width: 100%;
+        height: 90%;
+    }
+
+    .saiba_mais {
+        margin: 30px;
+        width: 105px;
+        height: 40px;
+        background: #FB6C14;
+        border-radius: 4px;
+        color: rgb(228, 225, 218);
+        font-family: "Passion One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 15px;
+    }
+
+    /*PAGINA 2 - QUEM SOMOS?*/
+    #aboutUS {
+        height: 90vh;
+    }
+
+    .quemSomos {
+        z-index: 1;
+        display: block;
+        color: #FB6C14;
+        font-family: "Passion One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .quemsomos {
+        align-content: center;
+        text-align: center;
+        font-size: 45px;
+    }
+
+    .ellipse {
+        z-index: -1;
+        top: -77px;
+        position: relative;
+        /*height: 938px; */
+        width: 100%;
+        height: 70vh;
+    }
+
+    .fish {
+        top: -320px;
+        position: relative;
+        width: 45%;
+        height: 40%;
+        left: 10px;
+    }
+
+    .texto {
+        top: -780px;
+        width: 48%;
+        position: relative;
+        height: 57%;
+        align-items: end;
+        display: flex;
+        text-align: center;
+        align-content: flex-end;
+        left: 154px;
+        font-size: 12px;
+    }
+
+    /*PAGINA 3 - POR QUE VOCÊ DEVE CUMPRIR SUAS HORAS? */
+
+    #cumprir {
+        height: 80vh;
+    }
+
+    .time {
+        width: 36%;
+        height: 50%;
+        left: 900px;
+        position: relative;
+        top: -220px;
+    }
+
+    .texto2 {
+        width: 65%;
+        height: 50%;
+        position: relative;
+        top: -195px;
+        left: 55px;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .title {
+        color: #FB6C14;
+        font-family: "Passion One", sans-serif;
+        font-weight: 400;
+        width: 80%;
+        font-style: normal;
+        font-size: 25px;
+        text-align: center;
+        left: 35px;
+        position: relative;
+        top: -55px;
+    }
+
+    /*PAGINA 4 - COMO VALIDAR SUAS HORAS NO ULIFE?*/
+    #validar {
+        height: 90vh;
+    }
+
+    .binoculo {
+        width: 40%;
+        height: 80%;
+        position: relative;
+        left: 45px;
+        top: -325px;
+    }
+
+    .texto3 {
+        width: 40%;
+        height: 50%;
+        position: relative;
+        top: -495px;
+        left: 790px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .title3 {
+        color: #FB6C14;
+        font-family: "Passion One", sans-serif;
+        font-weight: 400;
+        width: 38%;
+        font-style: normal;
+        font-size: 55px;
+        text-align: center;
+        left: 778px;
+        position: relative;
+        top: 40px;
+    }
+
+    /*PAGINA 5 - UNI  */
+
+    #unitalk {
+        height: 60vh;
+        background: #FB6C14;
+    }
+
+    .unitalk {
+        width: 90%;
+        height: 90%;
+    }
+
+    .chat {
+        width: 100%;
+        align-content: center;
+        text-align: center;
+        position: relative;
+        color: rgb(228, 225, 218);
+        top: 100px;
+        font-family: "Passion One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 16px;
+        margin: auto;
+    }
 }

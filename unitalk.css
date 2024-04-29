@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    width: auto;
+}
+
+/*PAGINA 1 - UNITALK*/
+
+nav {
+    width: 100%;
+    height: 5rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0 10%;
+    align-items: center;
+    background: rgb(217, 217, 217, 10%);
+    backdrop-filter: brightness(0.5);
+    z-index: 1;
+    text-decoration: none;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+nav a {
+    color: rgb(228, 225, 218);
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(228, 225, 218);
+}
+
+ul {
+    display: contents;
+}
+
+ul a {
+    color: rgb(228, 225, 218);
+    margin-left: 1rem;
+}
+
+#talk {
+    margin: auto;
+    height: 100vh;
+    background: #FB6C14;
+}
+
+.unitalk {
+    width: 90%;
+    height: 90%;
+}
+
+.chat {
+    width: 100%;
+    align-content: center;
+    text-align: center;
+    position: relative;
+    color: rgb(228, 225, 218);
+    top: 90px;
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+
+/*PAGINA 2 - NÓS ESTUDANTES UNISUL, UNIDOS COMO UM CACHO DE UVA!*/
+
+#estudante {
+    height: 90vh;
+    margin: auto;
+    max-width: 100%;
+    min-width: 320px;
+}
+
+.cacho {
+    max-width: 100%;
+    min-width: 320px;
+    z-index: 1;
+    display: block;
+    color: #450057;
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.unidos {
+    align-content: flex-end;
+    text-align: end;
+    font-size: 81px;
+    top: -1288px;
+    position: relative;
+    height: 30%;
+    max-width: 50%;
+    min-width: 20%;
+    left: 665px;
+}
+
+.laranjinha {
+    z-index: -1;
+    top: -35px;
+    position: relative;
+    /*height: 938px; */
+    width: 206vh;
+    height: 90vh;
+}
+
+.uva {
+    top: -697px;
+    position: relative;
+    width: 75vh;
+    height: 90vh;
+    left: 150px;
+}
+
+.cacho-texto {
+    top: -1245px;
+    width: 50%;
+    position: relative;
+    height: 50%;
+    align-items: end;
+    /* display: flex; */
+    text-align: end;
+    align-content: flex-end;
+    left: 665px;
+    font-size: 30px;
+}
+
+/*PAGINA 3 - UNITALK*/
+
+#clique{
+    height: 90vh;
+    margin: auto;
+    max-width: 100%;
+    min-width: 320px;
+}
+
+.fone{
+    width: 40%;
+    top: 25px;
+    left: 520px;
+    position: relative;
+}
+
+.clique{
+    color: #450057;
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+    width: 25%;
+    top: 180px;
+    left: 80px;
+    position: relative;
+}
+
+.grupo{
+    margin: 30px;
+    width: 205px;
+    height: 50px;
+    background: #450057;
+    border-color: #450057;
+    border-radius: 8px;
+    color: rgb(228, 225, 218);
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    left: 80px;
+    font-size: 20px;
+    position: relative;
+}
+
+/*PAGINA 3 - LISTA DE SITES QUE PODEM TE AJUDAR*/
+#sites{
+    height: 90vh;
+    margin: auto;
+    max-width: 100%;
+    min-width: 320px;
+    background: #D9D9D9;
+}
+
+.lista{
+    color: #450057;
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+    align-content: center;
+    text-align: center;
+    position: relative;
+}
+
+/*RESPONSIVO*/
+/* @media screen and (max-width:558px) {
+    #move{
+        width: 100%;
+        height: 10vh;
+    }
+    #talk{
+        width: 100%;
+        height: 50vh;
+    }
+    #estudante, cacho{
+        width: 100%;
+        height: 50vh;
+    }
+    .laranjinha {
+        width: 100%;
+        height: 40vh;
+        top: 0px;
+    }
+    .cacho-texto{
+        height: 0vh;
+        left: 215px;
+        top: -1095px;
+        font-size: 15px;
+
+    }
+    .unidos {
+        width: 30%;
+        height: 38%;
+    }
+    .uva{
+        width: 30%;
+        height: 40vh;
+        left: 50px;
+        top: -270px;
+    }
+} */
