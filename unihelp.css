@@ -118,18 +118,17 @@ ul a {
     top: -719px;
     position: relative;
     width: 88vh;
-    height: 93vh;
-    left: 0px;
+    height: 92vh;
 }
 
 .horas {
     align-content: flex-end;
     text-align: end;
-    font-size: 101px;
-    top: -1380px;
+    font-size: 97px;
+    top: -1375px;
     position: relative;
     height: 30%;
-    max-width: 50%;
+    max-width: 48%;
     min-width: 20%;
     left: 665px;
     color: #450057;
@@ -162,6 +161,86 @@ ul li {
     font-family: "Passion One", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 80px;
+    font-size: 75px;
     text-align: end;
+    left: -115px;
+    position: relative;
+}
+
+.retangulo {
+    top: -660px;
+    position: relative;
+    left: 1436px;
+    height: 198vh;
+    width: 67px;
+}
+
+.horizonte {
+    width: 1503px;
+    height: 60px;
+}
+
+/*PAGINA 4 -*/
+
+#fotos {
+    margin: auto;
+    height: 95vh;
+    text-decoration: none;
+}
+
+.ulife2 {
+    width: 27%;
+    position: relative;
+    left: 360px;
+}
+
+.ulife1 {
+    width: 37%;
+    position: relative;
+    left: 160px;
+}
+
+/*PAGINA 5 -*/
+
+#fim {
+    margin: auto;
+    height: 100vh;
+}
+
+.ulife3{
+    width: 99%;
+    position: relative;
+}
+
+.text6{
+    color: #450057;
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 77px;
+    left: 9px;
+    position: relative;
+    width: 62%;
+    top: -540px;
+}
+
+.confirma{
+    width: 25%;
+    position: relative;
+    left: 120px;
+    left: -601px;
+    top: 40px;
+}
+
+.cone1{
+    position: relative;
+    left: 835px;
+    width: 23%;
+}
+
+.cone2{
+    position: relative;
+    left: 685px;
+    width: 22%;
+    top: 40px;
 }
