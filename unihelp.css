@@ -83,7 +83,6 @@ ul a {
 
 .validar {
     margin: 4px;
-    ;
     width: 435px;
     height: 50px;
     background: #450057;
@@ -96,6 +95,10 @@ ul a {
     left: 535px;
     font-size: 20px;
     position: relative;
+    display: inline-grid;
+    align-content: center;
+    text-align: center;
+    text-decoration: none;
 }
 
 /*PAGINA 2 - AQUI TE MOSTRAREMOS O PASSO A PASSO DE COMO VALIDAR SUAS HORAS EXTRAS NO ULIFE*/
@@ -110,8 +113,8 @@ ul a {
     top: -35px;
     position: relative;
     /*height: 938px; */
-    width: 206vh;
-    height: 95vh;
+    width: 100%;
+    height: 90vh;
 }
 
 .dance {

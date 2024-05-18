@@ -114,7 +114,7 @@ ul a {
     top: -35px;
     position: relative;
     /*height: 938px; */
-    width: 206vh;
+    width: 100%;
     height: 90vh;
 }
 
@@ -188,8 +188,7 @@ ul a {
 #sites {
     height: 90vh;
     margin: auto;
-    max-width: 100%;
-    min-width: 320px;
+    width: 100%;
     background: #D9D9D9;
 }
 
@@ -201,6 +200,60 @@ ul a {
     font-size: 80px;
     align-content: center;
     text-align: center;
+    position: relative;
+}
+
+.links {
+    color: #FB6C14;
+    text-decoration: none;
+    text-align: center;
+    width: 187px;
+    align-content: center;
+    font-size: 40px;
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    align-items: center;
+    top: 110px;
+    position: relative;
+}
+
+.ajuste{
+    text-align: center;
+    width: 90%;
+    height: 80%;
+    position: relative;
+    display: flex;
+    left: 110px;
+}
+
+.links2 {
+    color: #FB6C14;
+    text-decoration: none;
+    text-align: center;
+    width: 215px;
+    align-content: center;
+    font-size: 40px;
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    align-items: center;
+    top: 220px;
+    position: relative;
+}
+
+.link3{
+    color: #FB6C14;
+    text-decoration: none;
+    text-align: center;
+    width: 215px;
+    align-content: center;
+    font-size: 40px;
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    align-items: center;
+    top: 290px;
     position: relative;
 }
 

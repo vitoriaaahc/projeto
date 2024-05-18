@@ -47,15 +47,22 @@ nav {
     top: 0;
     left: 0;
     right: 0;
+    align-content: center;
+    align-items: center;
 }
 
 nav a {
+    text-align: center;
+    display: inline-grid;
     color: rgb(228, 225, 218);
     font-family: "Passion One", sans-serif;
     font-weight: 400;
     font-style: normal;
+    align-content: center;
     font-size: 18px;
     text-decoration: none;
+    align-items: center;
+    position: relative;
 }
 
 nav a:hover {
@@ -82,7 +89,7 @@ ul a {
     text-align: center;
     position: relative;
     color: rgb(228, 225, 218);
-    top: 90px;
+    top: 35px;
     font-family: "Passion One", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -90,12 +97,28 @@ ul a {
 }
 
 .uni {
-    width: 60%;
+    width: 65%;
     height: 90%;
 }
 
-.saiba_mais {
+.texto4 {
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 26px;
     margin: 30px;
+    align-content: center;
+    text-align: center;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 70%;
+    left: 215px;
+
+}
+
+#saiba_mais {
+    margin: 2px;
     width: 205px;
     height: 50px;
     border-color: #FB6C14;
@@ -107,6 +130,9 @@ ul a {
     font-style: normal;
     font-size: 20px;
     cursor: pointer;
+    display: inline-grid;
+    align-content: center;
+    text-decoration: none;
 }
 
 /*PAGINA 2 - QUEM SOMOS?*/
@@ -153,7 +179,8 @@ ul a {
     height: 50%;
     align-items: end;
     display: flex;
-    text-align: center;
+    letter-spacing: 2px;
+    text-align: left;
     align-content: flex-end;
     left: 896px;
     font-size: 25px
@@ -185,6 +212,8 @@ ul a {
     font-family: "Passion One", sans-serif;
     font-weight: 400;
     font-style: normal;
+    letter-spacing: 2px;
+    text-align: right;
 }
 
 .title {
